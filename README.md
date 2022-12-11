@@ -1,4 +1,6 @@
 # Sierpiński Triangle
+> By Mohammad Yasir
+
 The Sierpiński triangle is an interesting example of fractal geometry. Fractals carry the property of being self-similar in nature, which means that a magnified or rescaled version appears identical to the original. While it is named after the Polish mathematician Wacław Sierpiński, the pattern is historically found in decorative applications centuries before him.
 
 ### Creating Sierpiński Triangles
@@ -15,3 +17,6 @@ The Chaos Game approach is perhaps the simplest one to implement mathematically.
 Typically, an outline of the triangle starts to take shape at around a 100 points.
 
 ### Output
+The script, when run for 500 and 25000 iterations gives the following outputs, respectively. More screenshots may be seen in the [screenshots folder](https://github.com/hafizmdyasir/sierpinski-triangle/tree/master/screenshots)
+![500 iterations sierpinski triangle](https://github.com/hafizmdyasir/sierpinski-triangle/blob/master/screenshots/500iter.png)
+![25000 iterations sierpinski triangle](https://github.com/hafizmdyasir/sierpinski-triangle/blob/master/output.png)
