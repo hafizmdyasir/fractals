@@ -54,7 +54,8 @@ def chaosGame(fileName = "output.png", dpi  = 600):
         count += 1
 
     print("Calculations complete...\nStarting plotting...")
-    plotter.scatter(xPoints, yPoints, s = 1)
+    plotter.axis("off")
+    plotter.scatter(xPoints, yPoints, s = 1, color = "red")
     plotter.title("Sierpinski Triangle with {0} points".format(maximum))
     plotter.savefig(fileName, dpi = dpi)
     print("Plotting complete")
