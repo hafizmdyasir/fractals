@@ -2,7 +2,7 @@ import matplotlib.pyplot as plotter
 import random
 import math
 
-def chaosGame(fileName = "output.png", dpi  = 600):
+def chaosGame(fileName = "sierpinski.png", dpi  = 600):
     #Lists to hold the coordinates with vertices of a 2x2x2 units triangle pre-inserted.
     xPoints = [0,2,1]
     yPoints = [0,0,math.sqrt(3)]
