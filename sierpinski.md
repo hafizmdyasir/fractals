@@ -1,4 +1,4 @@
-# Sierpinsi Triangle
+# Sierpinski Triangle
 There are a plethora of ways to graphically generate Sierpiński triangle, with the most common one being the one of [Removing Triangles](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle#Removing_triangles). A detailed description of these methods is beyond the scope of this readme file. But one can consult the Wikipedia page [here](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle).
 
 #### 1. Chaos Game
