@@ -45,7 +45,8 @@ def cls():
 
 FRACTALS = (
     Fractal("Barnsley Fern", 0.1, "green", affineTransformation),
-    Fractal("Sierpinski Triangle", 1, "red", sierpinski)
+    Fractal("Sierpinski Triangle", 1, "red", sierpinski),
+    Fractal("Vicsek Fractal", 0.1, "blue", vicsek)
 )
 
 
@@ -75,7 +76,7 @@ def main():
     print("Calculations complete.")
     plot(x, y, chosen.name, chosen.markerSize, chosen.markerColor, maximum)
     delay = input("Press Enter to continue or 'E' to exit: ")
-    return delay != 'E'
+    return (delay != 'E' and delay != 'e')
 
 while main():
     pass
