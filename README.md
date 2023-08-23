@@ -1,6 +1,8 @@
 # Fractal Generation
 > By Mohammad Yasir
 
+![Fractal](/screenshots/fractal.jpg)
+
 This repository is a collection of interesting algorithms I have and will come across over time related to generating fractal patterns.
 
 Fractals are shapes or patterns that carry the nature of self-similarity, i.e., a magnified or rescaled version appears identical to the original. The concept is not just limited to the realm of digital art and instead, fractals play a major role in computational physics, statistical mechanics, and a plethora of other fields.
