@@ -11,7 +11,7 @@ While there is perhaps an infinity of fractals in this universe, only a few have
 Either way, you can learn about these using the following links: 
 * [Sierpinski Triangle](https://github.com/hafizmdyasir/fractals/blob/3b946a4bdef508bc28c140f86fed522e9c3a05c6/sierpinski.md)
 * [Barnsley Fern](https://github.com/hafizmdyasir/fractals/blob/3b946a4bdef508bc28c140f86fed522e9c3a05c6/barnsley.md)
-* Vicsek Fractal
+* [Vicsek Fractal](https://github.com/hafizmdyasir/fractals/blob/master/vicsek.md)
 
 ## Code Structure
 If you simply want to run the program and generate fractals on your own, the `main.py` is the place to start. With Python installed on your system, just run this file and follow the onscreen prompts.
