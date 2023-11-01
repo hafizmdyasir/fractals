@@ -31,6 +31,7 @@ class Fractal:
 def plot(xPoints, yPoints, fractalName, markerSize, markerColor, nPoints, dpi = 600):
     
     print("Starting plotting.")
+    plotter.clf()
     plotter.scatter(xPoints, yPoints, s = markerSize, color = markerColor)
     axes = plotter.gca()
     axes.set_aspect("equal")
@@ -50,7 +51,7 @@ FRACTALS = (
     Fractal("Barnsley Fern", 0.1, "green", affineTransformation),
     Fractal("Sierpinski Triangle", 1, "red", sierpinski),
     Fractal("Vicsek Fractal", 0.1, "blue", vicsek),
-    Fractal("Seven Point", 0.1, "midnightblue", sevenPoint),
+    # Fractal("Seven Point", 0.1, "midnightblue", sevenPoint),
     Fractal("Golden Ratio", 0.01, "darkgoldenrod", goldenRatio),
     Fractal("Pi", 0.01, "darkgoldenrod", mathPi)
 )
