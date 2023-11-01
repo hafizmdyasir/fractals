@@ -6,11 +6,12 @@ Main module to interact with user and perform all necessary actions.
 """
 
 import matplotlib.pyplot as plotter
+import matplotlib.colors as mcolors
 from os import system, name
 
 from affine_transform import *
+from irrationals import *
 from chaos_game import *
-
 
 class Fractal:
     """
@@ -31,6 +32,8 @@ def plot(xPoints, yPoints, fractalName, markerSize, markerColor, nPoints, dpi = 
     
     print("Starting plotting.")
     plotter.scatter(xPoints, yPoints, s = markerSize, color = markerColor)
+    axes = plotter.gca()
+    axes.set_aspect("equal")
     plotter.title(f"{fractalName} with {nPoints} points")
     plotter.axis("off")
 
@@ -46,7 +49,10 @@ def cls():
 FRACTALS = (
     Fractal("Barnsley Fern", 0.1, "green", affineTransformation),
     Fractal("Sierpinski Triangle", 1, "red", sierpinski),
-    Fractal("Vicsek Fractal", 0.1, "blue", vicsek)
+    Fractal("Vicsek Fractal", 0.1, "blue", vicsek),
+    Fractal("Seven Point", 0.1, "midnightblue", sevenPoint),
+    Fractal("Golden Ratio", 0.01, "darkgoldenrod", goldenRatio),
+    Fractal("Pi", 0.01, "darkgoldenrod", mathPi)
 )
 
 

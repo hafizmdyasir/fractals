@@ -8,7 +8,7 @@ The chaos game method can be used to generate a large number of interesting frac
 
 
 from random import randint, uniform
-from math import sqrt
+from math import sqrt, cos, sin, pi
 
 def sierpinski(maximum):
     """
